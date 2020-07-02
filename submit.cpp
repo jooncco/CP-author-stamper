@@ -11,7 +11,7 @@ string format(int n) {
     int num= n;
     string str;
     while (num) { str= (char)('0'+num%10)+str, num /= 10; }
-    return (n < 10 ? "0"+str : str);
+    return (n < 10 ? (n == 0 ? "00" : "0"+str) : str);
 }
 
 int main(int cnt, char *args[]) {
