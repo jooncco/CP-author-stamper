@@ -20,7 +20,7 @@ int main(int argc, char *args[]) {
 	outFile << "typedef vector<ii> vii;\n";
 	outFile << "typedef priority_queue<int, vi, less<int> > maxHeap;\n";
 	outFile << "typedef priority_queue<int, vi, greater<int> > minHeap;\n\n";
-	outFile << "int t;\n";
+	outFile << "int t;\n\n";
 	outFile << "int main() {\n\n";
 	outFile << "\tFAST_IO;\n";
 	outFile << "\tcin >> t;\n";
