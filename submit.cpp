@@ -30,6 +30,12 @@ int main(int argc, char *args[]) {
 
 	// write author info
 	outFile << "/**\n";
+	outFile << " * written: ";
+	outFile << year << ". " << month << ". " << day << ". ";
+	outFile << wDay[idx] << ". ";
+	outFile << setw(2) << setfill('0') << hour << ":";
+	outFile << setw(2) << setfill('0') << minute << ":";
+	outFile << setw(2) << setfill('0') << second << " [UTC+9]\n";
 #ifdef _WIN32
 	outFile << " * jooncco의 windows pc에서.\n";
 #endif
@@ -39,12 +45,6 @@ int main(int argc, char *args[]) {
 #ifdef __APPLE__
 	outFile << " * jooncco의 mac에서.\n";
 #endif
-	outFile << " * written: ";
-	outFile << year << ". " << month << ". " << day << ". ";
-	outFile << wDay[idx] << ". ";
-	outFile << setw(2) << setfill('0') << hour << ":";
-	outFile << setw(2) << setfill('0') << minute << ":";
-	outFile << setw(2) << setfill('0') << second << " [UTC+9]\n";
 	outFile << " **/\n\n";
 
 	// copy source code
