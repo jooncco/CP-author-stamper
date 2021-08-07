@@ -13,6 +13,7 @@ int main(int argc, char *args[]) {
 	outFile << "#include <bits/stdc++.h>\n";
 	outFile << "using namespace std;\n\n";
 	outFile << "#define FAST_IO ios_base::sync_with_stdio(0),cin.tie(0)\n";
+	outFile << "typedef long long ll;\n";
 	outFile << "typedef pair<int,int> ii;\n";
 	outFile << "typedef deque<int> di;\n";
 	outFile << "typedef deque<ii> dii;\n";
