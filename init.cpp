@@ -28,7 +28,7 @@ int main(int argc, char *args[]) {
 	outFile << "int main() {\n\n";
 	outFile << "\tFAST_IO;\n";
 	outFile << "\tint t; cin >> t;\n";
-	outFile << "\twhile (t--) solve();\n\n";
+	outFile << "\twhile (t--) solve();\n";
 	outFile << "}";
 
 	inFile.close();
