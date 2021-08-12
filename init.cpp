@@ -18,16 +18,17 @@ int main(int argc, char *args[]) {
 	outFile << "typedef deque<int> di;\n";
 	outFile << "typedef deque<ii> dii;\n";
 	outFile << "typedef vector<int> vi;\n";
+	outFile << "typedef vector<ll> vl;\n";
 	outFile << "typedef vector<ii> vii;\n";
 	outFile << "typedef priority_queue<int, vi, less<int> > maxHeap;\n";
 	outFile << "typedef priority_queue<int, vi, greater<int> > minHeap;\n\n";
-	outFile << "int t;\n\n";
+	outFile << "void solve() {\n";
+	outFile << "\t\n";
+	outFile << "}\n\n";
 	outFile << "int main() {\n\n";
 	outFile << "\tFAST_IO;\n";
-	outFile << "\tcin >> t;\n";
-	outFile << "\twhile (t--) {\n";
-	outFile << "\t\t\n";
-	outFile << "\t}\n";
+	outFile << "\tint t; cin >> t;\n";
+	outFile << "\twhile (t--) solve();\n\n";
 	outFile << "}";
 
 	inFile.close();
