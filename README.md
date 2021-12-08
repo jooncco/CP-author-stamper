@@ -1,2 +1,2 @@
 # cp
-repo for competitive programming
+tools I use for competitive programming
