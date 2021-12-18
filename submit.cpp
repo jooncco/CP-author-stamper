@@ -6,6 +6,7 @@
 using namespace std;
 
 const string wDay[]= {"Sun","Mon","Tue","Wed","Thu","Fri","Sat"};
+const string myName = "[YOUR_NAME]";
 
 int main(int argc, char *args[]) {
 
@@ -37,13 +38,13 @@ int main(int argc, char *args[]) {
 	outFile << setw(2) << setfill('0') << minute << ":";
 	outFile << setw(2) << setfill('0') << second << " [UTC+9]\n";
 #ifdef _WIN32
-	outFile << " * jooncco의 windows pc에서.\n";
+	outFile << " * " << myName << "의 windows pc에서.\n";
 #endif
 #ifdef linux
-	outFile << " * jooncco의 linux pc에서.\n";
+	outFile << " * " << myName << "의 linux pc에서.\n";
 #endif
 #ifdef __APPLE__
-	outFile << " * jooncco의 mac에서.\n";
+	outFile << " * " << myName << "의 mac에서.\n";
 #endif
 	outFile << " **/\n\n";
 
