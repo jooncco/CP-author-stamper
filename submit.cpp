@@ -6,7 +6,7 @@
 using namespace std;
 
 const string wDay[]= {"Sun","Mon","Tue","Wed","Thu","Fri","Sat"};
-const string myName = "[YOUR_NAME]";
+const string myName = "<YOUR_NAME>";
 
 int main(int argc, char *args[]) {
 
