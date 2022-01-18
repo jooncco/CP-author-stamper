@@ -1,4 +1,4 @@
-# cp
+# CP-author-stamper
 `.cpp` programs for competitive programming.  
 Compile and use it for your competence in speed.
 
