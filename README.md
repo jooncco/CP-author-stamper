@@ -1,6 +1,5 @@
 # CP-author-stamper
-`.cpp` programs for competitive programming.  
-Compile and use it for your competence in speed.
+Compile and stamp source code with your signiture/slogan. Show off your competence in speed.
 
 ### init.cpp  
 : creates `main.cpp` template including commonly used c++ STL headers.
