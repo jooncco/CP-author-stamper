@@ -39,7 +39,7 @@ Compile and stamp source code with your signiture/slogan. Show off your competen
 
 MIT License
 
-Copyright (c) 2020-2022 JunHa Jeong
+Copyright 2022. JunHa Jeong
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
