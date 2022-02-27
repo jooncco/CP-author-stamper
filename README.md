@@ -1,8 +1,17 @@
 # CP-author-stamper
-Compile and stamp source code with your signiture/slogan. Show off your competence in speed.
+
+```
+/**
+ * written: 2022. 2. 26. Sat. 21:05:53 [UTC+9]
+ * jooncco의 mac에서.
+ **/
+```
+Add author/timestamp info comment header.  
+Get your source code ready-to-submit with commands.
+
 
 ### init.cpp  
-: creates `main.cpp` template including commonly used c++ STL headers.
+: creates `main.cpp` template including necessary STL libraries.
 
 ### submit.cpp
 : takes [fileName] argument and copies main.cpp file to [fileName].cpp.  
