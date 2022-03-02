@@ -10,7 +10,9 @@ Add `timestamp` & `author` above your source code.
 Get your source code **ready-to-submit** with simple commands.
 
 ### init.cpp
-
+```zsh
+$ ./init
+```
 : creates/overrides `main.cpp` template including necessary STL libraries.
 
 ### stamp.cpp
