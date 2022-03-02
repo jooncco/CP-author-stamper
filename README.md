@@ -23,13 +23,24 @@ $ ./stamp [fileName]
 
 <br/>
 
+## Getting ready
+
+Make sure you have modern [gcc compiler](https://gcc.gnu.org/releases.html) installed, and added to your system `PATH`.
+
+<br/>
+
 ## How to use
 
 ### 1. Replace **<YOUR_NAME>** with your name in `stamp.cpp`
 
 ### 2. Compile
+OS X / Linux:
 ```zsh
 ~/CP-stamper-cpp$ make
+```
+Windows:
+```zsh
+~/CP-stamper-cpp$ g++ init.cpp -o init && g++ stamp.cpp -o stamp
 ```
 
 ### 3. Init
