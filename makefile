@@ -1,5 +1,5 @@
 init:
 	g++ -o init init.cpp
-	g++ -o submit submit.cpp
+	g++ -o stamp stamp.cpp
 clean:
-	rm init submit
+	rm init stamp
