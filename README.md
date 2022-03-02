@@ -53,6 +53,8 @@ For example, `./stamp main.cpp file as A` will give you `A.cpp`.
 
 - If no argument is given, the `stamp` binary will generate `[currentTimeStamp].cpp`.
 
+<br/>
+
 ## License
 
 MIT License
