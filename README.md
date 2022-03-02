@@ -1,48 +1,57 @@
-# CP-author-stamper
+# CP-stamper-cpp
 
 ```
 /**
- * written: 2022. 2. 26. Sat. 21:05:53 [UTC+9]
- * jooncco의 mac에서.
+ * written: 2022-03-02 16:05:09 Wed [KST]
+ * in <YOUR_NAME>'s mac.
  **/
 ```
-Add author/timestamp info comment header.  
-Get your source code ready-to-submit with commands.
+Add `timestamp` & `author` above your source code.  
+Get your source code **ready-to-submit** with simple commands.
 
+### init.cpp
 
-### init.cpp  
-: creates `main.cpp` template including necessary STL libraries.
+: creates/overrides `main.cpp` template including necessary STL libraries.
 
-### submit.cpp
-: takes [fileName] argument and copies main.cpp file to [fileName].cpp.  
- attaches header comment including author info & timestamp.
+### stamp.cpp
+```zsh
+$ ./stamp [fileName]
+```
+: creates a copy of `main.cpp` with file name `[fileName]`.cpp & attaches header comment including timestamp & author info.
 
 <br/>
 
 ## How to use
 
-### 1. Replace **<YOUR_NAME>** with your name in `submit.cpp`
+### 1. Replace **<YOUR_NAME>** with your name in `stamp.cpp`
 
 ### 2. Compile
-```bash
-~/cp$ make
+```zsh
+~/CP-stamper-cpp$ make
 ```
 
-### 3. Initialize
-```bash
-~/cp$ ./init
+### 3. Init
+```zsh
+~/CP-stamper-cpp$ ./init
 ```
 
-### 4. Solve A
+### 4. Write code in main.cpp
 
-### 5. Copy file
-```bash
-~/cp$ ./submit A
+### 5. Stamp
+```zsh
+~/CP-stamper-cpp$ ./stamp A
 ```
 
-### 6. Submit `A.cpp` via file upload
+### 6. Upload `A.cpp` to submit
 
 <br/>
+
+## Notes
+
+- If you give more than 1 argument to `stamp` binary, it considers the last argument as its `fineName`.  
+For example, `./stamp main.cpp file as A` will give you `A.cpp`.
+
+- If no argument is given, the `stamp` binary will generate `[currentTimeStamp].cpp`.
 
 ## License
 
