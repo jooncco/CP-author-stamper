@@ -95,7 +95,8 @@ int main(int argc, char *args[]) {
 	outFile << "#include <unordered_set>\n";
 	outFile << "#endif\n";
 	outFile << "using namespace std;\n\n";
-	outFile << "#define FAST_IO ios_base::sync_with_stdio(0),cin.tie(0)\n";
+	outFile << "#define FAST_IO ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0)\n";
+	outFile << "typedef unsigned long long ull;\n";
 	outFile << "typedef long long ll;\n";
 	outFile << "typedef pair<int,int> ii;\n";
 	outFile << "typedef deque<int> di;\n";
@@ -108,7 +109,7 @@ int main(int argc, char *args[]) {
 	outFile << "void solve() {\n";
 	outFile << "\t\n";
 	outFile << "}\n\n";
-	outFile << "int main() {\n\n";
+	outFile << "int main() {\n";
 	outFile << "\tFAST_IO;\n";
 	outFile << "\tint t; cin >> t;\n";
 	outFile << "\twhile (t--) solve();\n";

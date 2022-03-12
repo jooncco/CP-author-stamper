@@ -41,7 +41,7 @@ int main(int argc, char *args[]) {
 	// write time and author info
 	outFile << "/**\n";
 	outFile << " * written: " << timestampStr << "\n";
-	outFile << " * in " << USER_NAME << "'s " << ENV << ".\n";
+	outFile << " * @" << USER_NAME << "'s " << ENV << ".\n";
 	outFile << " **/\n\n";
 
 	// copy source code
