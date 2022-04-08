@@ -1,4 +1,4 @@
-# CP-stamper-cpp
+# cp-stamper-cpp
 
 ```
 /**
